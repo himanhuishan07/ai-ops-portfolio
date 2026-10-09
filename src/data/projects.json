@@ -1,0 +1,24 @@
+[
+  {
+    "id": "edge-vision-drone",
+    "title": "Autonomous Drone Tracking & Edge AI Pipeline",
+    "category": "Edge AI & Vision",
+    "description": "Real-time multi-object tracking pipeline engineered for Raspberry Pi 5 & Hailo-8 NPU using YOLO and ByteTrack algorithms.",
+    "metrics": { "fps": "60 FPS", "latency": "14ms", "accuracy": "98.4%" },
+    "tags": ["YOLO", "ByteTrack", "Hailo-8 NPU", "OpenCV", "GStreamer"],
+    "githubUrl": "https://github.com/yourusername/edge-drone-tracker",
+    "liveUrl": "https://drone-tracker.demo.internal",
+    "featured": true
+  },
+  {
+    "id": "feast-price-predictor",
+    "title": "Real-Time Feature Retrieval & Inference Pipeline",
+    "category": "MLOps Infrastructure",
+    "description": "Sub-millisecond online feature store integration using Feast, Redis, and PyTorch for dynamic valuation models.",
+    "metrics": { "latency": "8ms", "throughput": "2.5k req/s" },
+    "tags": ["Feast", "Redis", "PyTorch", "Docker", "FastAPI"],
+    "githubUrl": "https://github.com/yourusername/feast-ml-pipeline",
+    "liveUrl": null,
+    "featured": true
+  }
+]
